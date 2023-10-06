@@ -75,24 +75,24 @@ footer a {
 
 @media(max-width:1024px) {
     body {
-       width: 1000px;
+        width: 1000px;
     }
- }
+}
 
 @media(max-width:1000px) {
     .box {
-       width: 1000px;
+        width: 1000px;
     }
- }
+}
 
 @media(max-width:768px) {
     body {
-       width: 700px;
+        width: 700px;
     }
- }
+}
 
 @media(max-width:768px) {
     .box {
-       width: 700px;
+        width: 700px;
     }
- }
+}
