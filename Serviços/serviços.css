@@ -1,0 +1,98 @@
+body {
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    background: linear-gradient(72deg, #9e345c 2%, #02569b 98%);
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+table {
+    border: #090a0a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: antiquewhite;
+    text-align: center;
+    margin: 0%;
+    padding: 2px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: linear-gradient(72deg, #69233e 2%, #012c4e 98%);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.box {
+    width: 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: left;
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(245, 206, 155);
+    cursor: pointer;
+}
+
+iframe {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer a {
+    font-size: small;
+    color: antiquewhite;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media(max-width:1024px) {
+    header {
+        width: 1000px;
+    }
+}
+
+@media(max-width:1024px) {
+    main {
+        width: 1000px;
+    }
+}
+
+@media(max-width:768px) {
+    header {
+        width: 700px;
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        width: 700px;
+    }
+}
